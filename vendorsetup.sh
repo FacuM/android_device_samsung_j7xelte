@@ -1,0 +1,1 @@
+export ANDROID_MAJOR_VERSION='P'
