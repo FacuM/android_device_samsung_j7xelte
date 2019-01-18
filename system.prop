@@ -16,9 +16,6 @@ persist.sys.usb.config=mtp,adb
 
 sys.display-size=1920x1080
 
-# ro.product.first_api_level indicates the first api level the device has commercially launched on.
-ro.product.first_api_level=23
-
 # Davlik Heap
 dalvik.vm.heapstartsize=8m
 dalvik.vm.heapgrowthlimit=288m
