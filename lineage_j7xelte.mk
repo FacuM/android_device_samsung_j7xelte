@@ -23,6 +23,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # Inherit some common Lineage stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Gapps
+TARGET_GAPPS_ARCH := arm
+TARGET_DENSITY := xhdpi
+TARGET_BOOT_ANIMATION_RES := 720
+TARGET_MINIMAL_APPS := true
+
 # Device identifier
 PRODUCT_NAME := lineage_j7xelte
 BOARD_VENDOR := samsung
